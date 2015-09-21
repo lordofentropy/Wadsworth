@@ -14,18 +14,3 @@ CEmployee::~CEmployee()
 
     bEek = true;
 }
-
-void CEmployee::release()
-{
-    --this->myiRefCount;
-
-    if ( 0 >= myiRefCount && NULL != this )
-    {
-        delete this;
-    }
-}
-
-void CEmployee::duplicate()
-{
-    ++this->myiRefCount;
-}

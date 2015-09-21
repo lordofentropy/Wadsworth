@@ -17,7 +17,7 @@ set(POCO_LIBS           "${POCO_LIB_DIR}/libPocoNet.a"
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp CEntity.cpp CEntity.h types/enums.h includes.h CEmployee.cpp CEmployee.h)
+set(SOURCE_FILES main.cpp CEntity.cpp CEntity.h types/enums.h includes.h CEmployee.cpp CEmployee.h CMenu.cpp CMenu.h)
 
 add_executable(Wadsworth ${SOURCE_FILES})
 

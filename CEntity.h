@@ -13,13 +13,13 @@ class CEntity
 public:
     CEntity();
     CEntity( std::string strName, ENTITY_TYPES entityType, Poco::UUID ID );
-    ~CEntity();
+    virtual ~CEntity(){};
 
     bool dump();
 
     // autoptr support
-    virtual void release () = 0;
-    virtual void duplicate () = 0;
+    void release (); // = 0;
+    void duplicate (); // = 0;
 
 protected:
     int myiRefCount;

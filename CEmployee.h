@@ -14,10 +14,6 @@ public:
     CEmployee();
     ~CEmployee();
 
-    // autoptr support
-    void release ();
-    void duplicate ();
-
 private:
     std::string mystrLastName;
     std::string mystrFirstName;

@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CEntity.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CEntity.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMenu.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMenu.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/includes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/types/enums.h" isTestSource="false" />

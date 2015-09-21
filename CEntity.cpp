@@ -22,14 +22,29 @@ CEntity::CEntity(std::string strName, enum ENTITY_TYPES entityType, Poco::UUID I
 
 }
 
+/*
 CEntity::~CEntity()
 {
     bool bEek = false;
 
     bEek = true;
 }
+*/
 
+void CEntity::release()
+{
+    --myiRefCount;
 
+    if ( 0 >= myiRefCount && NULL != this )
+    {
+        delete this;
+    }
+}
+
+void CEntity::duplicate()
+{
+    ++myiRefCount;
+}
 
 bool CEntity::dump()
 {
