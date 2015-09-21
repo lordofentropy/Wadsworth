@@ -13,11 +13,31 @@ set(POCO_LIBS           "${POCO_LIB_DIR}/libPocoNet.a"
                         "pthread")
 
 
-
-
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp CEntity.cpp CEntity.h types/enums.h includes.h CEmployee.cpp CEmployee.h CMenu.cpp CMenu.h)
+set(SOURCE_FILES    main.cpp
+                    CEntity.cpp
+                    CEntity.h
+                    types/enums.h
+                    includes.h
+                    staff/CEmployee.cpp
+                    staff/CEmployee.h
+                    menu/CMenu.cpp
+                    menu/CMenu.h
+                    menu/CMenuItem.cpp
+                    menu/CMenuItem.h
+                    menu/CIngredient.cpp
+                    menu/CIngredient.h
+                    guest/CGuest.cpp
+                    guest/CGuest.h
+                    seating/CTable.cpp
+                    seating/CTable.h
+                    seating/CSeat.cpp
+                    seating/CSeat.h
+                    check/CCheck.cpp
+                    check/CCheck.h
+                    seating/CSection.cpp
+                    seating/CSection.h)
 
 add_executable(Wadsworth ${SOURCE_FILES})
 

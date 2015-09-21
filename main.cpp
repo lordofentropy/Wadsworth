@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "includes.h"
-#include "CEmployee.h"
+#include "./staff/CEmployee.h"
 
 using namespace std;
 using Poco::AutoPtr;

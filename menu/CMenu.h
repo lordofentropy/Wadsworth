@@ -5,8 +5,7 @@
 #ifndef WADSWORTH_CMENU_H
 #define WADSWORTH_CMENU_H
 
-
-#include "CEntity.h"
+#include "../CEntity.h"
 
 class CMenu : public CEntity
 {
