@@ -93,7 +93,7 @@ public:
 
     void LastModifiedBy(CEntity* entityLastModifiedBy)
     {
-        CEntity::myentityLastModifiedBy = entityLastModifiedBy;
+        CEntity::myentityLastModifiedBy =  entityLastModifiedBy;
     }
 
 private:

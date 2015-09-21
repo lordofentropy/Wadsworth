@@ -9,7 +9,7 @@ using Poco::UUID;
 
 CEntity::CEntity() : myiRefCount( 1 ),
                      mystrName( "" ),
-                     myEntityType( ENTITY_TYPES::NONE ),
+                     myEntityType( ENTITY_TYPES::ENTITY_TYPE_NONE ),
                      myID()
 {
 }

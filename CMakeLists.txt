@@ -37,7 +37,7 @@ set(SOURCE_FILES    main.cpp
                     check/CCheck.cpp
                     check/CCheck.h
                     seating/CSection.cpp
-                    seating/CSection.h)
+                    seating/CSection.h security/CAccount.cpp security/CAccount.h check/CheckItem.cpp check/CheckItem.h staff/CMailBox.cpp staff/CMailBox.h staff/CSchedule.cpp staff/CSchedule.h security/CPermission.cpp security/CPermission.h)
 
 add_executable(Wadsworth ${SOURCE_FILES})
 
