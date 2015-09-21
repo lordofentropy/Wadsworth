@@ -1,0 +1,23 @@
+//
+// Created by Jared Marshall on 9/20/15.
+//
+
+#ifndef WADSWORTH_ENUMS_H
+#define WADSWORTH_ENUMS_H
+
+enum ENTITY_TYPES
+{
+    NONE = 0,
+    ITEM_MENU = 1,
+    ITEM_INGREDIENT = 2,
+    PERSON_EMPLOYEE = 4,
+    PERSON_GUEST = 8,
+    LOCATION_TABLE = 16,
+    LOCATION_SEAT = 32,
+    RULE_PERMISSION = 64,
+    RULE_SECURITY = 128
+};
+
+typedef enum ENTITY_TYPES ENTITY_TYPES;
+
+#endif //WADSWORTH_ENUMS_H
