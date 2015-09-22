@@ -10,6 +10,11 @@
 class CPermission : public CEntity
 {
 
+public:
+
+    CPermission();
+    CPermission(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CPermission();
 };
 
 

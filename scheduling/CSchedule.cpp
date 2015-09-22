@@ -2,14 +2,15 @@
 // Created by Jared Marshall on 9/21/15.
 //
 
-#include "CheckItem.h"
+#include "CSchedule.h"
 
-CheckItem::CheckItem() : CEntity()
+CSchedule::~CSchedule()
 { }
 
-CheckItem::CheckItem(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID) : CEntity(strName,
+CSchedule::CSchedule(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID) : CEntity(strName,
                                                                                                                  entityType,
                                                                                                                  ID)
 { }
-CheckItem::~CheckItem()
+
+CSchedule::CSchedule() : CEntity()
 { }

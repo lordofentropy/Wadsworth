@@ -11,6 +11,10 @@
 class CGuest : public CEntity
 {
 
+public:
+    CGuest();
+    CGuest(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CGuest();
 };
 
 

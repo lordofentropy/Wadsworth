@@ -11,6 +11,13 @@
 class CCheck : public CEntity
 {
 
+
+public:
+    CCheck();
+    CCheck(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CCheck();
+
+
 };
 
 

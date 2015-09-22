@@ -11,6 +11,11 @@
 class CheckItem : public CEntity
 {
 
+public:
+    CheckItem();
+    CheckItem(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CheckItem();
+
 };
 
 

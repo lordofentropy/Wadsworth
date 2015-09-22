@@ -51,4 +51,37 @@ enum MESSAGE_TYPES
 
 typedef enum MESSAGE_TYPES MESSAGE_TYPES;
 
+enum SCHEDULE_TYPES
+{
+    SCHEDULE_TYPE_NONE = 0,
+    DAY_OF_WEEK_ONLY = 1, // Day of week but not date matters, like a M-F lunch menu
+    WEEKLY_DATES = 2, // Day and Date needed, employee scheduling, sales, etc
+    DATE_SPECIFIC = 4 // schedule for a specific day only, e.g. St Patty's
+};
+
+typedef enum SCHEDULE_TYPES SCHEDULE_TYPES;
+
+enum DAY_OF_WEEK
+{
+    SUNDAY = 0,
+    MONDAY = 1,
+    TUESDAY = 2,
+    WEDNESDAY = 4,
+    THURSDAY = 8,
+    FRIDAY = 16,
+    SATURDAY = 32
+};
+
+typedef enum DAY_OF_WEEK DAY_OF_WEEK;
+
+enum MENU_ITEM_TYPES
+{
+    MENU_ITEM_NONE = 0,
+    MENU_ITEM_FOOD = 1,
+    MENU_ITEM_ALCOHOL_BEV = 2,
+    MENU_ITEM_NON_ALCOHOL_BEV = 4
+};
+
+typedef enum MENU_ITEM_TYPES MENU_ITEM_TYPES;
+
 #endif //WADSWORTH_ENUMS_H

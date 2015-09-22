@@ -10,6 +10,7 @@ set(POCO_LIBS           "${POCO_LIB_DIR}/libPocoNet.a"
                         "${POCO_LIB_DIR}/libPocoJSON.a"
                         "${POCO_LIB_DIR}/libPocoXML.a"
                         "${POCO_LIB_DIR}/libPocoFoundation.a"
+                        "${POCO_LIB_DIR}/libPocoData.a"
                         "pthread")
 
 
@@ -37,7 +38,17 @@ set(SOURCE_FILES    main.cpp
                     check/CCheck.cpp
                     check/CCheck.h
                     seating/CSection.cpp
-                    seating/CSection.h security/CAccount.cpp security/CAccount.h check/CheckItem.cpp check/CheckItem.h staff/CMailBox.cpp staff/CMailBox.h staff/CSchedule.cpp staff/CSchedule.h security/CPermission.cpp security/CPermission.h)
+                    seating/CSection.h
+                    security/CAccount.cpp
+                    security/CAccount.h
+                    check/CheckItem.cpp
+                    check/CheckItem.h
+                    staff/CMailBox.cpp
+                    staff/CMailBox.h
+                    scheduling/CSchedule.cpp
+                    scheduling/CSchedule.h
+                    security/CPermission.cpp
+                    security/CPermission.h)
 
 add_executable(Wadsworth ${SOURCE_FILES})
 
@@ -48,4 +59,5 @@ add_executable(Wadsworth ${SOURCE_FILES})
 #find_library(POCO ${POCO_LIBS})
 find_library(POCO_FOUNDATION PocoFoundation)
 find_library(POCO_NET PocoNet)
+find_library(POCO_DATA PocoData)
 target_link_libraries(Wadsworth ${POCO_LIBS})

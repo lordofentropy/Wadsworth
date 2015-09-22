@@ -11,6 +11,14 @@
 class CTable : public CEntity
 {
 
+
+public:
+    CTable();
+    CTable(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CTable();
+
+private:
+    int myiTableID;
 };
 
 

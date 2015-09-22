@@ -11,6 +11,10 @@
 class CSchedule : public CEntity
 {
 
+public:
+    CSchedule();
+    CSchedule(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CSchedule();
 };
 
 

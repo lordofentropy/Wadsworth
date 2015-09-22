@@ -11,6 +11,10 @@
 class CSection : CEntity
 {
 
+public:
+    CSection();
+    CSection(const std::string &strName, const ENTITY_TYPES &entityType, const Poco::UUID &ID);
+    virtual ~CSection();
 };
 
 

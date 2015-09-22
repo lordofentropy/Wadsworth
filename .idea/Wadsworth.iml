@@ -33,8 +33,8 @@
       <sourceFolder url="file://$MODULE_DIR$/staff/CEmployee.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/staff/CMailBox.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/staff/CMailBox.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/staff/CSchedule.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/staff/CSchedule.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scheduling/CSchedule.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scheduling/CSchedule.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/types/enums.h" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -45,6 +45,8 @@
           <root url="file:///Library/Developer/CommandLineTools/usr/include" />
           <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/6.0/include" />
           <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iODBC.framework/Headers" />
+          <root url="file:///Library/Frameworks/iODBCinst.framework/Headers" />
           <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
           <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
           <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
@@ -205,6 +207,8 @@
           <root url="file:///Library/Developer/CommandLineTools/usr/include" />
           <root url="file:///Library/Developer/CommandLineTools/usr/lib/clang/6.0/include" />
           <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iODBC.framework/Headers" />
+          <root url="file:///Library/Frameworks/iODBCinst.framework/Headers" />
           <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
           <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
           <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
